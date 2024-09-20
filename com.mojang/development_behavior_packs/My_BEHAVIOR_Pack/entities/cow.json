@@ -277,44 +277,6 @@
                     ]
                 }
             }
-        },
-        "minecraft:player_put_away_apple2": {
-            "add": {
-                "component_groups": [
-                    "minecraft:reset_target"
-                ]
-            }
-        }
-    },
-    "component_groups": {
-        "minecraft:reset_target": {
-            "minecraft:behavior.nearest_attackable_target": {
-                "priority": 2,
-                "must_see": true,
-                "reselect_targets": true,
-                "within_radius": 25.0,
-                "entity_types": [
-                    {
-                        "filters": {
-                            "all_of": [
-                                {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "player"
-                                },
-                                {
-                                    "test": "has_equipment",
-                                    "subject": "other",
-                                    "domain": "hand",
-                                    "value": "creamo:apple2",
-                                    "operator": "not"
-                                }
-                            ]
-                        },
-                        "max_dist": 32
-                    }
-                ]
-            }
         }
     }
 }
