@@ -1,10 +1,10 @@
 {
     "format_version": 2,
     "header": {
-      "description": "My attack cow behavior pack Add-On!",
+      "description": "My attack cow behavior pack Add-On! Now with apples! Hope they don't get eaten!",
       "name": "My Behavior Pack",
       "uuid":"e0e747b1-a23f-4cc7-8531-784f451d4a56",
-      "version": [1, 0, 0],
+      "version": [1, 0, 2],
       "min_engine_version": [1, 16, 0]
     },
     "modules":
@@ -13,7 +13,7 @@
           "description": "My First Add-On!",
             "type": "data",
             "uuid": "62164e71-fb07-4a80-8410-05333867837d",
-            "version": [1, 0, 0]
+            "version": [1, 0, 2]
         }
       ],
     "dependencies": [
