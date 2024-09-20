@@ -2,18 +2,18 @@
     "format_version": 2,
     "header": {
       "description": "My attack cow behavior pack Add-On! Now with apples! Hope they don't get eaten!",
-      "name": "My Attack Cow Behavior Pack. With Apples and stuff!",
+      "name": "My Attack Cow Behavior Pack. Now with creamo apples!",
       "uuid":"e0e747b1-a23f-4cc7-8531-784f451d4a56",
-      "version": [1, 0, 4],
+      "version": [1, 0, 6],
       "min_engine_version": [1, 16, 0]
     },
     "modules":
       [
         {
-          "description": "Where apples eat stone and stuff",
+          "description": "Huh, I wonder what this does?",
             "type": "data",
             "uuid": "62164e71-fb07-4a80-8410-05333867837d",
-            "version": [1, 0, 4]
+            "version": [1, 0, 6]
         }
       ],
     "dependencies": [

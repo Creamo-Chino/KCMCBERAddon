@@ -4,7 +4,7 @@
         "description": {
             "identifier": "creamo:apple2",
             "category": "items"
-},
+        },
         "components": {
             "minecraft:can_destroy": {
                 "blocks": [
@@ -36,6 +36,23 @@
             "minecraft:food": {
                 "nutrition": 4,
                 "saturation_modifier": 0.3
+            },
+            "minecraft:digger": {
+                "use_efficiency": 10.0,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:stone",
+                        "speed": 10.0
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 10.0
+                    },
+                    {
+                        "block": "minecraft:grass",
+                        "speed": 10.0
+                    }
+                ]
             }
         }
     }
