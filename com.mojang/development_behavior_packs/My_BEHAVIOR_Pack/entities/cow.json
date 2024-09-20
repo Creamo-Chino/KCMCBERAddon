@@ -201,9 +201,19 @@
                 "entity_types": [
                     {
                         "filters": {
-                            "test": "is_family",
-                            "subject": "other",
-                            "value": "player"
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                },
+                                {
+                                    "test": "has_equipment",
+                                    "subject": "other",
+                                    "domain": "hand",
+                                    "value": "creamo:apple2"
+                                }
+                            ]
                         },
                         "max_dist": 32
                     }
