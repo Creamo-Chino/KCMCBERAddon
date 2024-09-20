@@ -1,4 +1,4 @@
-# Minecraft Bedrock Edition Realms Addon
+# Kafuu Chino's Minecraft Bedrock Edition Realms Addon
 I do not work at or with Microsoft or Mojang nor do I claim to own any code by them. This is just a little personal mod project I made for myself and my friends. Feel free to use any of my changes to the code in your own little projects for whatever reason. I do not care.
 
 What this addon does (so far):
