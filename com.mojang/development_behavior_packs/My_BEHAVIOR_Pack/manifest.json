@@ -2,9 +2,9 @@
     "format_version": 2,
     "header": {
       "description": "Apples 2 electric boogaloo",
-      "name": "Removed the cow's ability to attack and added apples!",
+      "name": "Cows attack again and are full of apples",
       "uuid":"e0e747b1-a23f-4cc7-8531-784f451d4a56",
-      "version": [1, 0, 8],
+      "version": [1, 0, 9],
       "min_engine_version": [1, 16, 0]
     },
     "modules":
@@ -13,7 +13,7 @@
           "description": "Huh, I wonder what this does?",
             "type": "data",
             "uuid": "62164e71-fb07-4a80-8410-05333867837d",
-            "version": [1, 0, 8]
+            "version": [1, 0, 9]
         }
       ]
   }
