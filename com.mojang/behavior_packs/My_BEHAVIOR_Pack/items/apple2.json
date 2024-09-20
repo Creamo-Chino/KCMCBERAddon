@@ -1,0 +1,169 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "creamo:apple2",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:can_destroy": {
+                "blocks": [
+                    "minecraft:grass",
+                    "minecraft:dirt",
+                    "minecraft:stone",
+                    "minecraft:coal_ore"
+                ]
+            },
+            "minecraft:icon": {
+                "texture": "apple"
+            },
+            "minecraft:display_name": {
+                "value": "apple 2"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_food",
+                    "minecraft:is_tool"
+                ]
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.35
+            },
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation_modifier": 0.3
+            },
+            "minecraft:digger": {
+                "use_efficiency": 15.0,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:stone",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:grass",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:coal_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:iron_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:gold_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:diamond_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:emerald_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:lapis_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:redstone_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:nether_quartz_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:ancient_debris",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:gravel",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:granite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:diorite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:andesite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_coal_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_iron_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_gold_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_diamond_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_emerald_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_lapis_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:deepslate_redstone_ore",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:polished_granite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:polished_andesite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:cobbled_deepslate",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:calcite",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:tuff",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:dripstone_block",
+                        "speed": 15.0
+                    },
+                    {
+                        "block": "minecraft:coarse_dirt",
+                        "speed": 15.0
+                    }
+                ]
+            }
+        }
+    }
+}
